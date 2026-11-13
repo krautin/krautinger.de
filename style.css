@@ -19,6 +19,9 @@ section.alt{background:#f7f9fb}
 h2{font-size:30px;margin:0 0 12px}
 .sub{color:var(--m);margin:0 0 32px;max-width:720px}
 .grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.grid.pk{grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr))}
+.price small{white-space:nowrap}
+.pilot{margin:24px 0 0;padding:14px 18px;border-left:4px solid var(--c);background:#fff;border-radius:6px}
 .card{border:1px solid var(--b);border-radius:12px;padding:24px;background:#fff}
 .card h3{margin:0 0 8px;font-size:20px}
 .num{font-size:38px;font-weight:700;color:var(--c);line-height:1}
